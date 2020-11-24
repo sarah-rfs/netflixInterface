@@ -81,9 +81,40 @@ nav{
 }
 
 .filmeprincipal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
+    margin-left: 15px;
+
+    font-size: 20px;
 }
 
 .titulo{
+    margin-top: 20%;
+    margin-left: 15px;
     font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 15%;
+    color: white;
+
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
 }
