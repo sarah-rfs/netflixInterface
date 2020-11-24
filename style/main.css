@@ -13,6 +13,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 a{
@@ -43,7 +44,7 @@ nav{
 
 }
 
-.container{
+.container1{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,3 +65,25 @@ nav{
     margin-right: 10px;
 }
 
+/*filme principal*/
+
+.filmeprincipal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/acaminhodalua.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmeprincipal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 50px;
+}
