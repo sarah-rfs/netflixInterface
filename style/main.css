@@ -69,7 +69,7 @@ nav{
 
 .filmeprincipal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/acaminhodalua.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/acaminhodalua.jpg');
 
     height: 600px;
     background-size: cover;
