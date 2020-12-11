@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -65,6 +65,10 @@ nav{
     margin-right: 10px;
 }
 
+.netflix-img{
+    height: 100px;
+}
+
 /*filme principal*/
 
 .filmeprincipal{
@@ -86,6 +90,8 @@ nav{
     margin-left: 15px;
 
     font-size: 20px;
+
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .titulo{
@@ -93,6 +99,7 @@ nav{
     margin-left: 15px;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .botao{
@@ -123,4 +130,8 @@ nav{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }

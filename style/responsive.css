@@ -1,0 +1,33 @@
+@media screen and (max-width:650px){
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .botao{
+        margin-top: 5px;
+    }
+
+    .filmeprincipal{
+        background:url('../img/acaminhodalua2.jpg');
+        background-size: 100% 90%;
+    }
+
+@media screen and (min-width: 1000px){
+
+    .descricao{
+        width: 50%;
+    }
+}
+}
