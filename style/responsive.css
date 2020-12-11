@@ -21,7 +21,7 @@
 
     .filmeprincipal{
         background:url('../img/acaminhodalua2.jpg');
-        background-size: 100% 90%;
+        background-size: 100% 100%;
     }
 
 @media screen and (min-width: 1000px){
