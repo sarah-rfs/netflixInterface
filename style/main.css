@@ -65,8 +65,8 @@ nav{
     margin-right: 10px;
 }
 
-.netflix-img{
-    height: 10rem;
+.left .netflix-img{
+    height: 100px;
 }
 
 /*filme principal*/
